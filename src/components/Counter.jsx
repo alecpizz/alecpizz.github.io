@@ -9,7 +9,7 @@ export const Counter = () => {
 
     const getData = async () => {
         const dataFetch = async () => {
-            await fetch(`https://abacus.jasoncameron.dev/hit/alecpizz.com/hits`).then((res) => res.json()).then((data) => {
+            await fetch(`https://abacus.jasoncameron.dev/hit/alecpizz.com/visitors`).then((res) => res.json()).then((data) => {
                 setCount(data.value);
             });
         }

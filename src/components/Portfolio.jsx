@@ -113,7 +113,7 @@ export const Portfolio = () => {
                 <section>
                     <h4>Rapid Prototyping Projects</h4>
                     <img src="gunadders.png" width={"50%"} height={"50%"}></img>
-                    <img src="fishsplatters.png" width={"50%"} height={"50%"}></img>
+                    <img src="fishsplatters.PNG" width={"50%"} height={"50%"}></img>
                     <img src="sizematters.png" width={"50%"} height={"50%"}></img>
                     <img src="gnomeladders.png" width={"50%"} height={"50%"}></img>
                     <p>Throughout the span of a semester I worked with around 15 other people on four prototypes: Gun Adders, Gnome Ladders, Size Matters, and Fish Splatters. Each prototype was made in around 3 weeks. For Gun Adders I primarily worked on player movement and bullet physics. On Gnome Ladders I worked on some math elements and UI efforts whilst learning the Godot engine. In Size Matters I developed the main mechanic of growing and shrinking objects. Lastly on Fish Splatters I implemented the water physics.</p>
@@ -137,7 +137,7 @@ export const Portfolio = () => {
                     <h4>Immersion Sector</h4>
                     <img src="IMSEC_mp.gif" width="100%" height="100%"></img>
                     <img src="IMSEC_Force.gif" width="100%" height="100%"></img>
-                    <img src="IMSEC_Guns.gif" width="100%" height="100%"></img>
+                    <img src="IMSEC_guns.gif" width="100%" height="100%"></img>
                     <p> A cancelled physics based multiplayer game where I created several new types of multiplayer VR interactions. Various body physics and IK work was also done to create an accurate representation of a human body in VR. Specialized Netcode was written in order to solve the shared object interaction problem that comes with multiplayer VR. I also worked on various physical interactions such as guns and hand-object interaction.</p>
                     <a href="https://www.youtube.com/watch?v=pYd5beRe7Bo">Click me to watch a tech showcase!</a>
                     <p>Tools used:</p>
