@@ -22,11 +22,9 @@ export const Sidebar = () => {
                 <nav>
                     <ul>
                         <li><a href="mailto:alecpizz@gmail.com">Email</a></li>
-                        <li><a href="https://twitter.com/alecpizz">Twitter</a></li>
                         <li><a href='https://discord.com/users/140313471756664832'>Discord</a></li>
                         <li><a href='https://www.youtube.com/@alecpizz'>YouTube</a></li>
                         <li><a href='https://www.linkedin.com/in/alecpizz'>Linkedin</a></li>
-                        <li><a href="https://www.artstation.com/alecpizz">ArtStation</a></li>
                         <li><a href="https://github.com/alecpizz">GitHub</a></li>
                     </ul>
                 </nav>
@@ -37,9 +35,9 @@ export const Sidebar = () => {
                     <ul>
                         <li>Unity - 5 Years</li>
                         <li>C# - 5 Years</li>
-                        <li>C++ - 1 Year</li>
+                        <li>C++ - 2 Years</li>
                         <ul>
-                            <li>OpenGL, Engine Dev - 2 Months</li>
+                            <li>OpenGL, Engine Dev - 1 year</li>
                         </ul>
                         <li>Java - 1 Year</li>
                         <li>Photoshop - 5 Years</li>
@@ -49,11 +47,11 @@ export const Sidebar = () => {
                         <li>Git, Plastic SCM - 4 Years</li>
                         <li>Web Development - 1 Year</li>
                         <ul>
-                            <li>MERN Stack - 5 Months</li>
+                            <li>MERN Stack - 1 Year</li>
                             <li>SQL, MongoDB - 5 Months</li>
                         </ul>
                         <li>Godot - 2 Months</li>
-                        <li>Python - 1 Month</li>
+                        <li>Python - 1 Year</li>
                     </ul>
                 </nav>
             </CollapsableSection>

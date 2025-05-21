@@ -27,6 +27,7 @@ function App() {
             <div className='body-flex'>
               <UpdatePanel title={"Site Changelog"}>
                 <p>8/5/2024 - Initial Deployment</p>
+                <p>5/13/2025 - Updated Portfolio</p>
               </UpdatePanel>
               <UpdatePanel title={"About this Site"}>
                 <p>After staring at dozens of portfolio sites for hours I realized something: Modern web design is not for me. For this site I opted to have a early 2000s aesthetic, which feels much more comfortable to me.</p>

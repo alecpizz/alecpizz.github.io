@@ -8,7 +8,7 @@ export const Portfolio = () => {
                     <h4>NervBox</h4>
                     <img src="keyart3.webp" width={"100%"} height={"100%"}></img>
                     <p>A full-physics VR simulation that lets you explore worlds and create experiences with your friends. Has many advanced never-before-seen methods of syncing fully physics-based characters, with very little limits to fidelity. Runs on Meta Quest and PCVR.</p>
-                    <p>Within this project I worked on various aspects, from networking and physical interaction to NPC AI and gameplay logic. Guns, swords, and other players all put together results in a super complex project that I've spent the better part of 2 years on.</p>
+                    <p>Within this project I worked on various aspects, from networking and physical interaction to NPC AI and gameplay logic. Guns, swords, and other players all put together results in a super complex project that I've spent the better part of 2 years on. Currently I am working on next-gen mod support.</p>
                     <p>I also made the cover art!</p>
                     <a href="https://nervbox.com">Click me for more information!</a>
                     <p>Tools used:</p>
@@ -20,6 +20,104 @@ export const Portfolio = () => {
                             <li>Epic Online Services</li>
                             <li>PhysX</li>
                             <li>OpenXR</li>
+                        </ul>
+                    </nav>
+                    <br></br>
+                </section>
+
+                <section>
+                    <h4>In Harmony</h4>
+                    <img src="inHarmony_logo.png" width={"75%"} height={"75%"}></img>
+                    <p>A narrative-driven puzzle game built with a team of 30 people over the span of two semesters. Features 50 levels and various intertwined mechanics.</p>
+                    <p>Within this project I worked on a little bit of everything, from building core infrastructure such as the grid system and turn-based system, to small polish features. I also made a large amount of tools to speed up level creation and building.</p>
+                    <p>I also managed the Git repo for the project, ensuring that everyones work was properly getting integrated. The repo did not break a single time, even with in-experienced members!</p>
+                    <a href="https://crowded-kitchen.itch.io/in-harmony">Click me for the itch page!</a>
+                    <br></br>
+                    <a href="https://github.com/alecpizz/CKCapstone/">Click me for the Git repo!</a>
+                    <p>Tools used:</p>
+                    <nav>
+                        <ul>
+                            <li>Unity</li>
+                            <li>C#</li>
+                            <li>GitHub</li>
+                            <li>Unity Universal Render Pipeline</li>
+                        </ul>
+                    </nav>
+                    <br></br>
+                </section>
+
+                <section>
+                    <h4>MAGE Engine</h4>
+                    <img src="MAGE.png" width={"100%"} height={"100%"}></img>
+                    <p>A small game engine written in C++ over the span of one semester. Used to learn about engine architecture. The engine features a custom ECS, with 2D rendering capabilities. A small game was built with it.</p>
+                    <a href="https://github.com/alecpizz/CIS456">Click me to visit the repo!</a>
+                    <p>Tools used:</p>
+                    <nav>
+                        <ul>
+                            <li>C++</li>
+                            <li>OpenGL</li>
+                            <li>GLSL</li>
+                            <li>SDL</li>
+                        </ul>
+                    </nav>
+                    <br></br>
+                </section>
+
+                <section>
+                    <h4>Cologne 2.0</h4>
+                    <img src="cologne2.png" width={"100%"} height={"100%"}></img>
+                    <p>A work-in-progress game without an engine. Features a voxel cone traced global illumination, real-time shadows and physics. This project serves as a place for me to study advanced graphics techniques and scale.</p>
+                    <a href="https://www.youtube.com/watch?v=z94KUKSkaD8">Click me to see it in action!</a>
+                    <br></br>
+                    <a href="https://github.com/alecpizz/cologne2">Click me to visit the codebase!</a>
+                    <p>Tools used:</p>
+                    <nav>
+                        <ul>
+                            <li>C++</li>
+                            <li>OpenGL</li>
+                            <li>Jolt</li>
+                            <li>SDL3</li>
+                            <li>ASSIMP</li>
+                            <li>Dear ImGui</li>
+                        </ul>
+                    </nav>
+                    <br></br>
+                </section>
+
+                <section>
+                    <h4>Aickdreailes</h4>
+                    <img src="aickdriles.png" width={"100%"} height={"100%"}></img>
+                    <p>A toy game-engine written in C# using the Raylib library. The project took place over the span of about a month. The engine features quake-style player movement, PBR lighting, runtime field generation and physics integration. A basic entity-system was also made.</p>
+                    <a href="https://www.youtube.com/watch?v=c1dVjSWAoc8">See a video!</a>
+                    <br></br>
+                    <a href="https://github.com/alecpizz/Aickdreailes">Click me to visit the codebase!</a>
+                    <p>Tools used:</p>
+                    <nav>
+                        <ul>
+                            <li>C#</li>
+                            <li>OpenGL</li>
+                            <li>Raylib</li>
+                            <li>JitterPhysics2</li>
+                            <li>Dear ImGui</li>
+                        </ul>
+                    </nav>
+                    <br></br>
+                </section>
+
+                
+                <section>
+                    <h4>Local Robots</h4>
+                    <img src="spot.png" width={"100%"} height={"100%"}></img>
+                    <p>A maze solving robot implementation in Webots. Features inverse-kinematic driven locomotion, a-star path finding, and PROTO driven maze generation. The locomotion is softened using a series of PID controllers. The maze solutions were then handed off to a physical representation of the robot. The virtual robot will be used to teach future classes.</p>
+                    <br></br>
+                    <a href="https://github.com/LocalRobots/SpotImplementation">Click me to visit the Github repo!</a>
+                    <p>Tools used:</p>
+                    <nav>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Webots</li>
+                            <li>C++</li>
                         </ul>
                     </nav>
                     <br></br>
@@ -70,23 +168,7 @@ export const Portfolio = () => {
                     </nav>
                 </section>
 
-                <section>
-                    <h4>Cologne Engine</h4>
-                    <img src="cologne.png" width={"100%"} height={"100%"}></img>
-                    <video controls width={"100%"} height={"100%"}>
-                        <source src="colognephys.mp4" type="video/mp4"></source>
-                    </video>
-                    <p>A toy game engine written in C++ and OpenGL to learn graphics programming. Currently contains a bespoke model importer, texture importer, deferred lighting, physics powered by Jolt, and a basic entity system. I plan on re-visiting this project with a more gameplay-oriented focus, and potentially re-writing it in a different langauge.</p>
-                    <p>Tools used:</p>
-                    <nav>
-                        <ul>
-                            <li>C++</li>
-                            <li>OpenGL</li>
-                            <li>GLM</li>
-                            <li>Jolt</li>
-                        </ul>
-                    </nav>
-                </section>
+              
 
                 {/* <section>
                     <h4>Placebo Entertainment Game</h4>
@@ -106,6 +188,24 @@ export const Portfolio = () => {
                             <li>LED strips</li>
                             <li>Breadboards and circuit design</li>
                             <li>Python</li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section>
+                    <h4>Cologne Engine</h4>
+                    <img src="cologne.png" width={"100%"} height={"100%"}></img>
+                    <video controls width={"100%"} height={"100%"}>
+                        <source src="colognephys.mp4" type="video/mp4"></source>
+                    </video>
+                    <p>A toy game engine written in C++ and OpenGL to learn graphics programming. Currently contains deferred lighting, physics powered by Jolt, and a basic entity system.</p>
+                    <p>Tools used:</p>
+                    <nav>
+                        <ul>
+                            <li>C++</li>
+                            <li>OpenGL</li>
+                            <li>GLM</li>
+                            <li>Jolt</li>
                         </ul>
                     </nav>
                 </section>
